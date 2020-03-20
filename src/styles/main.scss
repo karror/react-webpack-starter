@@ -1,0 +1,20 @@
+$bg: #a2baff;
+$round: #2312e0;
+$fs: 120pt;
+
+.rwdg-main-container {
+  background-color: $bg;
+  color: $round;
+  font-size: $fs;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);;
+  margin: 10px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: $round;
+  border-width: 20px;
+}
